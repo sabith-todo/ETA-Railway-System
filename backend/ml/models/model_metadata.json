@@ -1,0 +1,83 @@
+{
+  "model_version": "1.0.0",
+  "champion_model": "Random Forest Regressor",
+  "trained_at": "2026-09-22T10:30:33.689910",
+  "dataset_samples": 21100,
+  "features": [
+    "train_number_code",
+    "station_sequence",
+    "distance_from_origin",
+    "remaining_distance",
+    "current_delay",
+    "previous_station_delay",
+    "current_speed",
+    "historical_avg_delay",
+    "section_avg_speed",
+    "day_of_week",
+    "month",
+    "scheduled_hour"
+  ],
+  "feature_importances": {
+    "train_number_code": 0.0015,
+    "station_sequence": 0.0166,
+    "distance_from_origin": 0.0102,
+    "remaining_distance": 0.0148,
+    "current_delay": 0.8412,
+    "previous_station_delay": 0.0024,
+    "current_speed": 0.061,
+    "historical_avg_delay": 0.0,
+    "section_avg_speed": 0.0506,
+    "day_of_week": 0.0007,
+    "month": 0.0,
+    "scheduled_hour": 0.0011
+  },
+  "validation_benchmark": {
+    "Linear Regression (Ridge)": {
+      "mae": 16.736,
+      "rmse": 25.256,
+      "r2": 0.9066,
+      "max_error": 241.46,
+      "training_seconds": 0.12
+    },
+    "Random Forest Regressor": {
+      "mae": 5.469,
+      "rmse": 10.106,
+      "r2": 0.9851,
+      "max_error": 189.81,
+      "training_seconds": 0.56
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 5.704,
+      "rmse": 9.54,
+      "r2": 0.9867,
+      "max_error": 105.62,
+      "training_seconds": 4.65
+    }
+  },
+  "test_performance": {
+    "mae": 5.577,
+    "rmse": 9.941,
+    "r2": 0.986,
+    "max_error": 128.59
+  },
+  "hyperparameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 12,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 4,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 40,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

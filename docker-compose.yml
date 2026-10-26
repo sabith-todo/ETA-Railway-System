@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: railforecast_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: railforecast
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d railforecast"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: railforecast_backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgrespassword@postgres:5432/railforecast
+      - RAILWAY_API_BASE_URL=https://api.railway.example.com
+      - RAILWAY_API_KEY=${RAILWAY_API_KEY:-}
+      - DATA_PROVIDER_MODE=real_data
+      - PORT=8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/ml/models:/app/backend/ml/models
+
+volumes:
+  postgres_data:
+    driver: local

@@ -1,0 +1,25 @@
+# RailForecastAI Flutter Web & Client Container
+FROM ghcr.io/cirruslabs/flutter:3.19.0 AS build
+
+WORKDIR /app
+
+# Copy dependency definition
+COPY pubspec.yaml pubspec.lock* /app/
+
+# Get Flutter packages
+RUN flutter pub get
+
+# Copy all source code
+COPY lib/ /app/lib/
+COPY web/ /app/web/
+
+# Build Flutter web production release
+RUN flutter build web --release
+
+# Stage 2: Production Nginx Server
+FROM nginx:alpine
+
+COPY --from=build /app/build/web /usr/share/nginx/html
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

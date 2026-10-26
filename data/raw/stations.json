@@ -1,0 +1,2182 @@
+[
+  {
+    "code": "MAS",
+    "name": "Chennai Central",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0827,
+    "lon": 80.2707,
+    "platforms": 12,
+    "zone": "SR"
+  },
+  {
+    "code": "MS",
+    "name": "Chennai Egmore",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0805,
+    "lon": 80.2612,
+    "platforms": 11,
+    "zone": "SR"
+  },
+  {
+    "code": "MSB",
+    "name": "Chennai Beach",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0927,
+    "lon": 80.2925,
+    "platforms": 8,
+    "zone": "SR"
+  },
+  {
+    "code": "TBM",
+    "name": "Tambaram",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9249,
+    "lon": 80.12,
+    "platforms": 8,
+    "zone": "SR"
+  },
+  {
+    "code": "CGL",
+    "name": "Chengalpattu Jn",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.6841,
+    "lon": 79.9836,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "TRL",
+    "name": "Tiruvallur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1437,
+    "lon": 79.9079,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "AJJ",
+    "name": "Arakkonam Jn",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "lat": 13.0783,
+    "lon": 79.6677,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "TRT",
+    "name": "Tiruttani",
+    "city": "Tiruttani",
+    "state": "Tamil Nadu",
+    "lat": 13.1764,
+    "lon": 79.6105,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "MLMR",
+    "name": "Melmaruvathur",
+    "city": "Melmaruvathur",
+    "state": "Tamil Nadu",
+    "lat": 12.4332,
+    "lon": 79.8277,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "TMV",
+    "name": "Tindivanam",
+    "city": "Tindivanam",
+    "state": "Tamil Nadu",
+    "lat": 12.2319,
+    "lon": 79.6548,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "KPD",
+    "name": "Katpadi Jn",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "lat": 12.9698,
+    "lon": 79.1378,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "VLR",
+    "name": "Vellore Cantt",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "lat": 12.9165,
+    "lon": 79.1325,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "AB",
+    "name": "Ambur",
+    "city": "Ambur",
+    "state": "Tamil Nadu",
+    "lat": 12.7889,
+    "lon": 78.7144,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "VN",
+    "name": "Vaniyambadi",
+    "city": "Vaniyambadi",
+    "state": "Tamil Nadu",
+    "lat": 12.6865,
+    "lon": 78.6186,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "JTJ",
+    "name": "Jolarpettai Jn",
+    "city": "Jolarpettai",
+    "state": "Tamil Nadu",
+    "lat": 12.5583,
+    "lon": 78.5772,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "TPT",
+    "name": "Tirupattur",
+    "city": "Tirupattur",
+    "state": "Tamil Nadu",
+    "lat": 12.4937,
+    "lon": 78.5684,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MAP",
+    "name": "Morappur",
+    "city": "Morappur",
+    "state": "Tamil Nadu",
+    "lat": 12.1284,
+    "lon": 78.3976,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "BQI",
+    "name": "Bommidi",
+    "city": "Bommidi",
+    "state": "Tamil Nadu",
+    "lat": 11.979,
+    "lon": 78.2917,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SA",
+    "name": "Salem Jn",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "lat": 11.6643,
+    "lon": 78.146,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "SXT",
+    "name": "Salem Town",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "lat": 11.65,
+    "lon": 78.16,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SGE",
+    "name": "Sankaridurg",
+    "city": "Sankari",
+    "state": "Tamil Nadu",
+    "lat": 11.4822,
+    "lon": 77.8683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ED",
+    "name": "Erode Jn",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "lat": 11.341,
+    "lon": 77.7172,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "TUP",
+    "name": "Tiruppur",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "lat": 11.1085,
+    "lon": 77.3411,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CBF",
+    "name": "Coimbatore North",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0183,
+    "lon": 76.9558,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CBE",
+    "name": "Coimbatore Jn",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0016,
+    "lon": 76.9629,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "MTP",
+    "name": "Mettupalayam",
+    "city": "Mettupalayam",
+    "state": "Tamil Nadu",
+    "lat": 11.2987,
+    "lon": 76.9452,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "POY",
+    "name": "Pollachi Jn",
+    "city": "Pollachi",
+    "state": "Tamil Nadu",
+    "lat": 10.6609,
+    "lon": 77.0048,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "UDT",
+    "name": "Udumalaipettai",
+    "city": "Udumalaipettai",
+    "state": "Tamil Nadu",
+    "lat": 10.5847,
+    "lon": 77.2476,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VM",
+    "name": "Villupuram Jn",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 11.9398,
+    "lon": 79.4936,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "VRI",
+    "name": "Vriddhachalam Jn",
+    "city": "Vriddhachalam",
+    "state": "Tamil Nadu",
+    "lat": 11.5204,
+    "lon": 79.3308,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "CHSM",
+    "name": "Chinnasalem",
+    "city": "Chinnasalem",
+    "state": "Tamil Nadu",
+    "lat": 11.642,
+    "lon": 78.887,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ATU",
+    "name": "Attur",
+    "city": "Attur",
+    "state": "Tamil Nadu",
+    "lat": 11.5975,
+    "lon": 78.598,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ALU",
+    "name": "Ariyalur",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "lat": 11.1401,
+    "lon": 79.0743,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "LLI",
+    "name": "Lalgudi",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "lat": 10.869,
+    "lon": 78.8152,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SRGM",
+    "name": "Srirangam",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.8622,
+    "lon": 78.6983,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TPJ",
+    "name": "Tiruchirappalli Jn",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.7937,
+    "lon": 78.6847,
+    "platforms": 8,
+    "zone": "SR"
+  },
+  {
+    "code": "MPA",
+    "name": "Manaparai",
+    "city": "Manaparai",
+    "state": "Tamil Nadu",
+    "lat": 10.6074,
+    "lon": 78.4137,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "DG",
+    "name": "Dindigul Jn",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "lat": 10.3673,
+    "lon": 77.9803,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "ABI",
+    "name": "Ambaturai",
+    "city": "Ambaturai",
+    "state": "Tamil Nadu",
+    "lat": 10.252,
+    "lon": 77.925,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SDN",
+    "name": "Sholavandan",
+    "city": "Sholavandan",
+    "state": "Tamil Nadu",
+    "lat": 10.021,
+    "lon": 78.0086,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PLNI",
+    "name": "Palani",
+    "city": "Palani",
+    "state": "Tamil Nadu",
+    "lat": 10.45,
+    "lon": 77.52,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "KRR",
+    "name": "Karur Jn",
+    "city": "Karur",
+    "state": "Tamil Nadu",
+    "lat": 10.9575,
+    "lon": 78.0837,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "NMKL",
+    "name": "Namakkal",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "lat": 11.2189,
+    "lon": 78.1674,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "RASP",
+    "name": "Rasipuram",
+    "city": "Rasipuram",
+    "state": "Tamil Nadu",
+    "lat": 11.455,
+    "lon": 78.168,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "DPJ",
+    "name": "Dharmapuri",
+    "city": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "lat": 12.1211,
+    "lon": 78.1582,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "HSRA",
+    "name": "Hosur",
+    "city": "Hosur",
+    "state": "Tamil Nadu",
+    "lat": 12.7409,
+    "lon": 77.8253,
+    "platforms": 3,
+    "zone": "SWR"
+  },
+  {
+    "code": "MDU",
+    "name": "Madurai Jn",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "lat": 9.9197,
+    "lon": 78.1139,
+    "platforms": 8,
+    "zone": "SR"
+  },
+  {
+    "code": "TDN",
+    "name": "Tiruparankundram",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "lat": 9.8808,
+    "lon": 78.0718,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TMQ",
+    "name": "Tirumangalam",
+    "city": "Tirumangalam",
+    "state": "Tamil Nadu",
+    "lat": 9.8247,
+    "lon": 77.9892,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VPT",
+    "name": "Virudhunagar Jn",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "lat": 9.5872,
+    "lon": 77.9579,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "SRT",
+    "name": "Sattur",
+    "city": "Sattur",
+    "state": "Tamil Nadu",
+    "lat": 9.3622,
+    "lon": 77.9261,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CVP",
+    "name": "Kovilpatti",
+    "city": "Kovilpatti",
+    "state": "Tamil Nadu",
+    "lat": 9.1725,
+    "lon": 77.8719,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MEJ",
+    "name": "Vanchi Maniyachchi Jn",
+    "city": "Maniyachi",
+    "state": "Tamil Nadu",
+    "lat": 8.8653,
+    "lon": 77.8741,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "TEN",
+    "name": "Tirunelveli Jn",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "lat": 8.7291,
+    "lon": 77.7289,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "VLY",
+    "name": "Valliyur",
+    "city": "Valliyur",
+    "state": "Tamil Nadu",
+    "lat": 8.3797,
+    "lon": 77.6168,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "NCJ",
+    "name": "Nagercoil Jn",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "lat": 8.1834,
+    "lon": 77.4379,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "CAPE",
+    "name": "Kanniyakumari",
+    "city": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "lat": 8.0883,
+    "lon": 77.5385,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "TN",
+    "name": "Tuticorin",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "lat": 8.8053,
+    "lon": 78.1553,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "TCN",
+    "name": "Tiruchendur",
+    "city": "Tiruchendur",
+    "state": "Tamil Nadu",
+    "lat": 8.496,
+    "lon": 78.1215,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TTL",
+    "name": "Tiruttangal",
+    "city": "Sivakasi",
+    "state": "Tamil Nadu",
+    "lat": 9.488,
+    "lon": 77.802,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SVPR",
+    "name": "Srivilliputtur",
+    "city": "Srivilliputtur",
+    "state": "Tamil Nadu",
+    "lat": 9.5086,
+    "lon": 77.6322,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "RJPM",
+    "name": "Rajapalayam",
+    "city": "Rajapalayam",
+    "state": "Tamil Nadu",
+    "lat": 9.4533,
+    "lon": 77.5542,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SNKL",
+    "name": "Sankarankovil",
+    "city": "Sankarankovil",
+    "state": "Tamil Nadu",
+    "lat": 9.1722,
+    "lon": 77.5328,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KDNL",
+    "name": "Kadayanallur",
+    "city": "Kadayanallur",
+    "state": "Tamil Nadu",
+    "lat": 9.076,
+    "lon": 77.345,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TSI",
+    "name": "Tenkasi Jn",
+    "city": "Tenkasi",
+    "state": "Tamil Nadu",
+    "lat": 8.9592,
+    "lon": 77.3153,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "SCT",
+    "name": "Sengottai",
+    "city": "Sengottai",
+    "state": "Tamil Nadu",
+    "lat": 8.9806,
+    "lon": 77.2403,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "APK",
+    "name": "Aruppukkottai",
+    "city": "Aruppukkottai",
+    "state": "Tamil Nadu",
+    "lat": 9.51,
+    "lon": 78.1,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TENI",
+    "name": "Theni",
+    "city": "Theni",
+    "state": "Tamil Nadu",
+    "lat": 10.01,
+    "lon": 77.47,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "BDNK",
+    "name": "Bodinayakkanur",
+    "city": "Bodinayakkanur",
+    "state": "Tamil Nadu",
+    "lat": 10.015,
+    "lon": 77.35,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TDPR",
+    "name": "Tirupadripulyur",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "lat": 11.75,
+    "lon": 79.76,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CUPJ",
+    "name": "Cuddalore Port Jn",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "lat": 11.737,
+    "lon": 79.768,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "CDM",
+    "name": "Chidambaram",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "lat": 11.3992,
+    "lon": 79.6936,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SY",
+    "name": "Sirkazhi",
+    "city": "Sirkazhi",
+    "state": "Tamil Nadu",
+    "lat": 11.2386,
+    "lon": 79.7347,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MV",
+    "name": "Mayiladuthurai Jn",
+    "city": "Mayiladuthurai",
+    "state": "Tamil Nadu",
+    "lat": 11.0993,
+    "lon": 79.6522,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "ADT",
+    "name": "Aduthurai",
+    "city": "Aduthurai",
+    "state": "Tamil Nadu",
+    "lat": 11.002,
+    "lon": 79.493,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KMU",
+    "name": "Kumbakonam",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "lat": 10.9575,
+    "lon": 79.3853,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "PML",
+    "name": "Papanasam",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "lat": 10.923,
+    "lon": 79.273,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TJ",
+    "name": "Thanjavur Jn",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "lat": 10.7828,
+    "lon": 79.1318,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "BAL",
+    "name": "Budalur",
+    "city": "Budalur",
+    "state": "Tamil Nadu",
+    "lat": 10.801,
+    "lon": 78.985,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TVR",
+    "name": "Tiruvarur Jn",
+    "city": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "lat": 10.7725,
+    "lon": 79.6361,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "NGT",
+    "name": "Nagapattinam",
+    "city": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "lat": 10.7656,
+    "lon": 79.8428,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "VLNK",
+    "name": "Velankanni",
+    "city": "Velankanni",
+    "state": "Tamil Nadu",
+    "lat": 10.68,
+    "lon": 79.84,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "MQ",
+    "name": "Mannargudi",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "lat": 10.6667,
+    "lon": 79.45,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "PDKT",
+    "name": "Pudukkottai",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "lat": 10.3797,
+    "lon": 78.8208,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KKDI",
+    "name": "Karaikkudi Jn",
+    "city": "Karaikkudi",
+    "state": "Tamil Nadu",
+    "lat": 10.0711,
+    "lon": 78.7733,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "DKO",
+    "name": "Devakottai Road",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "lat": 10.021,
+    "lon": 78.784,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SVGA",
+    "name": "Sivaganga",
+    "city": "Sivaganga",
+    "state": "Tamil Nadu",
+    "lat": 9.8475,
+    "lon": 78.4839,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MNM",
+    "name": "Manamadurai Jn",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "lat": 9.6975,
+    "lon": 78.4522,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "PMK",
+    "name": "Paramakkudi",
+    "city": "Paramakkudi",
+    "state": "Tamil Nadu",
+    "lat": 9.5447,
+    "lon": 78.5889,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "RMD",
+    "name": "Ramanathapuram",
+    "city": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "lat": 9.3675,
+    "lon": 78.8358,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "UMD",
+    "name": "Uchippuli",
+    "city": "Uchippuli",
+    "state": "Tamil Nadu",
+    "lat": 9.33,
+    "lon": 79.03,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MMM",
+    "name": "Mandapam",
+    "city": "Mandapam",
+    "state": "Tamil Nadu",
+    "lat": 9.2778,
+    "lon": 79.1239,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "RMM",
+    "name": "Rameswaram",
+    "city": "Rameswaram",
+    "state": "Tamil Nadu",
+    "lat": 9.2885,
+    "lon": 79.3129,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "TNM",
+    "name": "Tiruvannamalai",
+    "city": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "lat": 12.2253,
+    "lon": 79.0747,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "BWT",
+    "name": "Bangarapet Jn",
+    "city": "Bangarapet",
+    "state": "Karnataka",
+    "lat": 12.9833,
+    "lon": 78.1833,
+    "platforms": 4,
+    "zone": "SWR"
+  },
+  {
+    "code": "KJM",
+    "name": "Krishnarajapuram",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.9972,
+    "lon": 77.6833,
+    "platforms": 4,
+    "zone": "SWR"
+  },
+  {
+    "code": "BNC",
+    "name": "Bengaluru Cantt",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.9934,
+    "lon": 77.5982,
+    "platforms": 3,
+    "zone": "SWR"
+  },
+  {
+    "code": "SBC",
+    "name": "KSR Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.9781,
+    "lon": 77.5694,
+    "platforms": 10,
+    "zone": "SWR"
+  },
+  {
+    "code": "MYS",
+    "name": "Mysuru Jn",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "lat": 12.3161,
+    "lon": 76.6433,
+    "platforms": 6,
+    "zone": "SWR"
+  },
+  {
+    "code": "PGT",
+    "name": "Palakkad Jn",
+    "city": "Palakkad",
+    "state": "Kerala",
+    "lat": 10.8037,
+    "lon": 76.6575,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "TVC",
+    "name": "Thiruvananthapuram Central",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "lat": 8.4875,
+    "lon": 76.9525,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "MSF",
+    "name": "Chennai Fort",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0805,
+    "lon": 80.2831,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "MPK",
+    "name": "Chennai Park",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0789,
+    "lon": 80.2762,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "MSC",
+    "name": "Chetpet",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0694,
+    "lon": 80.2435,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "NBK",
+    "name": "Nungambakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0617,
+    "lon": 80.2333,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MKK",
+    "name": "Kodambakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0519,
+    "lon": 80.2238,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MBM",
+    "name": "Mambalam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0382,
+    "lon": 80.2241,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "SP",
+    "name": "Saidapet",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0233,
+    "lon": 80.2185,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GDY",
+    "name": "Guindy",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0083,
+    "lon": 80.2133,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "STM",
+    "name": "St Thomas Mount",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9961,
+    "lon": 80.1983,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "PZA",
+    "name": "Pazhavanthangal",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9868,
+    "lon": 80.1872,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MN",
+    "name": "Meenambakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9786,
+    "lon": 80.1772,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TLM",
+    "name": "Tirusulam (Chennai Airport)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9691,
+    "lon": 80.1652,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PV",
+    "name": "Pallavaram",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9567,
+    "lon": 80.1478,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "CMP",
+    "name": "Chromepet",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9469,
+    "lon": 80.1367,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TBMS",
+    "name": "Tambaram Sanatorium",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9361,
+    "lon": 80.1256,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PRGL",
+    "name": "Perungalathur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.9056,
+    "lon": 80.0989,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VDR",
+    "name": "Vandalur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.8911,
+    "lon": 80.0817,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "UPM",
+    "name": "Urapakkam",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.8683,
+    "lon": 80.0683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GI",
+    "name": "Guduvancheri",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.8467,
+    "lon": 80.0578,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "POTI",
+    "name": "Potheri (SRM)",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.8258,
+    "lon": 80.0417,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CTM",
+    "name": "Kattangulathur",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.8167,
+    "lon": 80.0333,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MMNK",
+    "name": "Maraimalai Nagar",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.8028,
+    "lon": 80.0233,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SKL",
+    "name": "Singaperumal Koil",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.7667,
+    "lon": 80.0033,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PWU",
+    "name": "Paranur (Mahindra City)",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.7217,
+    "lon": 79.9917,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MASS",
+    "name": "Chennai Central Suburban",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0827,
+    "lon": 80.2757,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "BBQ",
+    "name": "Basin Bridge Jn",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0967,
+    "lon": 80.2717,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "VPY",
+    "name": "Vyasarpadi Jeeva",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1067,
+    "lon": 80.2617,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PER",
+    "name": "Perambur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1072,
+    "lon": 80.2458,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "PCW",
+    "name": "Perambur Carriage Works",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1083,
+    "lon": 80.235,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PEW",
+    "name": "Perambur Loco Works",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1092,
+    "lon": 80.2242,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VLK",
+    "name": "Villivakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1078,
+    "lon": 80.2078,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "KOTR",
+    "name": "Korattur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1111,
+    "lon": 80.1833,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PVM",
+    "name": "Pattaravakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1167,
+    "lon": 80.1683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ABU",
+    "name": "Ambattur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1217,
+    "lon": 80.1517,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "TMVL",
+    "name": "Thirumullaivoyal",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1267,
+    "lon": 80.1367,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ANNR",
+    "name": "Annanur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1294,
+    "lon": 80.1233,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "AVD",
+    "name": "Avadi",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1189,
+    "lon": 80.1017,
+    "platforms": 6,
+    "zone": "SR"
+  },
+  {
+    "code": "HC",
+    "name": "Hindu College",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1217,
+    "lon": 80.0817,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PAB",
+    "name": "Pattabiram",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1233,
+    "lon": 80.0633,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "NEC",
+    "name": "Nemilichery",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1242,
+    "lon": 80.0417,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TI",
+    "name": "Tiruninravur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1217,
+    "lon": 80.0217,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "VEU",
+    "name": "Veppampattu",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1267,
+    "lon": 79.9867,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SVR",
+    "name": "Sevvapet Road",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1317,
+    "lon": 79.9533,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PTLR",
+    "name": "Putlur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1367,
+    "lon": 79.9283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "EGT",
+    "name": "Egattur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1283,
+    "lon": 79.8667,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KBT",
+    "name": "Kadambattur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1167,
+    "lon": 79.8417,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "SPAM",
+    "name": "Senji Panambakkam",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.1067,
+    "lon": 79.8083,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MAF",
+    "name": "Manavur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.0967,
+    "lon": 79.7717,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TO",
+    "name": "Thiruvalangadu",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.0867,
+    "lon": 79.7333,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "MSU",
+    "name": "Mosur",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "lat": 13.0817,
+    "lon": 79.6917,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PLMG",
+    "name": "Puliyamangalam",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "lat": 13.0783,
+    "lon": 79.6783,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KOK",
+    "name": "Korukkupet",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1117,
+    "lon": 80.2817,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TNP",
+    "name": "Tondiarpet",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.125,
+    "lon": 80.2867,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TVT",
+    "name": "Tiruvottiyur",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1617,
+    "lon": 80.3017,
+    "platforms": 4,
+    "zone": "SR"
+  },
+  {
+    "code": "WCN",
+    "name": "Wimco Nagar",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.1817,
+    "lon": 80.31,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KAVM",
+    "name": "Kathivakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.2017,
+    "lon": 80.3183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ENR",
+    "name": "Ennore",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.2183,
+    "lon": 80.325,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "AIP",
+    "name": "Attipattu",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.2517,
+    "lon": 80.3083,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "AIPP",
+    "name": "Attipattu Pudunagar",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.2683,
+    "lon": 80.2983,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "NPKM",
+    "name": "Nandiambakkam",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.2833,
+    "lon": 80.285,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MJR",
+    "name": "Minjur",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.3017,
+    "lon": 80.2617,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "APB",
+    "name": "Anuppampattu",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.3367,
+    "lon": 80.2317,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PON",
+    "name": "Ponneri",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.3517,
+    "lon": 80.2017,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "KVP",
+    "name": "Kavaraippettai",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.385,
+    "lon": 80.1717,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GPD",
+    "name": "Gummidipoondi",
+    "city": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "lat": 13.4117,
+    "lon": 80.1317,
+    "platforms": 5,
+    "zone": "SR"
+  },
+  {
+    "code": "OV",
+    "name": "Ottivakkam",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.6367,
+    "lon": 79.9483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PALR",
+    "name": "Padalam",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.5917,
+    "lon": 79.9183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KGZ",
+    "name": "Karunguzhi",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.5483,
+    "lon": 79.8883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MMK",
+    "name": "Madurantakam",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.5083,
+    "lon": 79.8833,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ACK",
+    "name": "Acharapakkam",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.4117,
+    "lon": 79.8083,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TZD",
+    "name": "Tozhuppedu",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "lat": 12.3367,
+    "lon": 79.7683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "OLA",
+    "name": "Olakur",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 12.2783,
+    "lon": 79.7283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PCLM",
+    "name": "Panchalam",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 12.2383,
+    "lon": 79.6883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MYP",
+    "name": "Mailam",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 12.1283,
+    "lon": 79.6183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PEI",
+    "name": "Perani",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 12.0683,
+    "lon": 79.5783,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VVN",
+    "name": "Vikravandi",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 12.0283,
+    "lon": 79.5483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MYX",
+    "name": "Mundiyampakkam",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 11.9883,
+    "lon": 79.5183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PRKL",
+    "name": "Parikkal",
+    "city": "Villupuram",
+    "state": "Tamil Nadu",
+    "lat": 11.7683,
+    "lon": 79.3683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "ULU",
+    "name": "Ulundurpet",
+    "city": "Kallakurichi",
+    "state": "Tamil Nadu",
+    "lat": 11.6883,
+    "lon": 79.2883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PNDM",
+    "name": "Pennadam",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "lat": 11.3917,
+    "lon": 79.2317,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "MTUR",
+    "name": "Mathur",
+    "city": "Perambalur",
+    "state": "Tamil Nadu",
+    "lat": 11.2883,
+    "lon": 79.1683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SNDI",
+    "name": "Sendurai",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "lat": 11.2383,
+    "lon": 79.1383,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KKPM",
+    "name": "Kallakkudi Palanganatham",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.9883,
+    "lon": 78.9483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PMB",
+    "name": "Pullambadi",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.9283,
+    "lon": 78.8983,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TPTN",
+    "name": "Tiruchirappalli Town",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.8417,
+    "lon": 78.6917,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GOC",
+    "name": "Ponmalai (Golden Rock)",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.7967,
+    "lon": 78.7183,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "PUG",
+    "name": "Punggudi",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.7283,
+    "lon": 78.6183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VPJ",
+    "name": "Vaiyampatti",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "lat": 10.5383,
+    "lon": 78.3183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "AYR",
+    "name": "Ayyalur",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "lat": 10.4583,
+    "lon": 78.1983,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VDM",
+    "name": "Vadamadurai",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "lat": 10.4283,
+    "lon": 78.1383,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KQN",
+    "name": "Kodaikanal Road",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "lat": 10.1783,
+    "lon": 77.9183,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "VDP",
+    "name": "Vadipatti",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "lat": 10.0983,
+    "lon": 77.9483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KON",
+    "name": "Kudalnagar",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "lat": 9.9383,
+    "lon": 78.1083,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SHU",
+    "name": "Sholinghur",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "lat": 13.0617,
+    "lon": 79.5283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "WJR",
+    "name": "Walajah Road Jn",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "lat": 12.9817,
+    "lon": 79.3683,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "MCN",
+    "name": "Mukundarayapuram",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "lat": 12.9683,
+    "lon": 79.2883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GYM",
+    "name": "Gudiyattam",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "lat": 12.9483,
+    "lon": 78.8683,
+    "platforms": 3,
+    "zone": "SR"
+  },
+  {
+    "code": "DC",
+    "name": "Magudanchavadi",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "lat": 11.5583,
+    "lon": 77.9883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "CV",
+    "name": "Cauvery",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "lat": 11.3683,
+    "lon": 77.7483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PY",
+    "name": "Perundurai",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "lat": 11.2783,
+    "lon": 77.5883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "VZ",
+    "name": "Vijayamangalam",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "lat": 11.2383,
+    "lon": 77.5083,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "UKL",
+    "name": "Uttukuli",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "lat": 11.1883,
+    "lon": 77.4483,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SNO",
+    "name": "Somanur",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0883,
+    "lon": 77.2183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SUU",
+    "name": "Sulur Road",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0383,
+    "lon": 77.1283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "IGU",
+    "name": "Irugur Jn",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0183,
+    "lon": 77.0683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "PLMD",
+    "name": "Pilamedu",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.0183,
+    "lon": 77.0183,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KGD",
+    "name": "Kalligudi",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "lat": 9.7183,
+    "lon": 77.9383,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "TY",
+    "name": "Tulukapati",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "lat": 9.4883,
+    "lon": 77.9283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KDU",
+    "name": "Kadambur",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "lat": 8.9883,
+    "lon": 77.8683,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "GDN",
+    "name": "Gangaikondan",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "lat": 8.8383,
+    "lon": 77.7883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "SGLM",
+    "name": "Sengulam",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "lat": 8.5883,
+    "lon": 77.6383,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "NNN",
+    "name": "Nanguneri",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "lat": 8.4883,
+    "lon": 77.5883,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "AAY",
+    "name": "Aralvaymoli",
+    "city": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "lat": 8.2583,
+    "lon": 77.5283,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "BYPL",
+    "name": "Baiyyappanahalli",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.9917,
+    "lon": 77.6533,
+    "platforms": 3,
+    "zone": "SWR"
+  },
+  {
+    "code": "CRLM",
+    "name": "Karmelaram",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.915,
+    "lon": 77.7117,
+    "platforms": 2,
+    "zone": "SWR"
+  },
+  {
+    "code": "OML",
+    "name": "Omalur Jn",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "lat": 11.7383,
+    "lon": 78.0417,
+    "platforms": 2,
+    "zone": "SR"
+  },
+  {
+    "code": "KPN",
+    "name": "Kuppam",
+    "city": "Chittoor",
+    "state": "Andhra Pradesh",
+    "lat": 12.7517,
+    "lon": 78.3617,
+    "platforms": 3,
+    "zone": "SWR"
+  }
+]

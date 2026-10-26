@@ -1,0 +1,344 @@
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   RAILWAY DESIGN SYSTEM - THEME TOKENS & CSS VARIABLES
+   Default: Royal Indigo & Violet (Futuristic Analytics)
+   ========================================================================== */
+
+:root,
+[data-theme="royal-indigo"] {
+  --railway-darkest: 7 8 24;
+  --railway-dark: 13 14 43;
+  --railway-surface: 19 22 58;
+  --railway-card: 26 30 77;
+  --railway-border: 46 53 119;
+  --railway-hover: 59 68 150;
+  --railway-accent: 139 92 246;
+  --railway-accent-hover: 124 58 237;
+  --railway-gold: 245 158 11;
+  --railway-text-primary: 248 250 252;
+  --railway-text-secondary: 199 210 254;
+  --railway-text-muted: 129 140 248;
+
+  --map-bg: #0D0E2B;
+  --map-tile-filter: brightness(0.65) invert(1) contrast(2.6) hue-rotate(220deg) saturate(0.55) brightness(0.85);
+  --map-popup-bg: #13163A;
+  --map-popup-text: #F8FAFC;
+  --map-popup-border: #2E3577;
+
+  --glass-panel-bg: rgba(19, 22, 58, 0.75);
+  --glass-panel-border: rgba(46, 53, 119, 0.6);
+  --glass-card-bg: rgba(26, 30, 77, 0.6);
+  --glass-card-border: rgba(46, 53, 119, 0.5);
+
+  --scrollbar-track: #0D0E2B;
+  --scrollbar-thumb: #2E3577;
+  --scrollbar-thumb-hover: #8B5CF6;
+}
+
+[data-theme="cyber-neon"] {
+  --railway-darkest: 6 2 14;
+  --railway-dark: 14 5 32;
+  --railway-surface: 24 11 52;
+  --railway-card: 36 17 73;
+  --railway-border: 74 32 138;
+  --railway-hover: 97 43 181;
+  --railway-accent: 168 85 247;
+  --railway-accent-hover: 147 51 234;
+  --railway-gold: 251 191 36;
+  --railway-text-primary: 250 245 255;
+  --railway-text-secondary: 216 180 254;
+  --railway-text-muted: 168 85 247;
+
+  --map-bg: #0E0520;
+  --map-tile-filter: brightness(0.6) invert(1) contrast(3.2) hue-rotate(250deg) saturate(0.7) brightness(0.8);
+  --map-popup-bg: #180B34;
+  --map-popup-text: #FAF5FF;
+  --map-popup-border: #4A208A;
+
+  --glass-panel-bg: rgba(24, 11, 52, 0.8);
+  --glass-panel-border: rgba(74, 32, 138, 0.6);
+  --glass-card-bg: rgba(36, 17, 73, 0.6);
+  --glass-card-border: rgba(74, 32, 138, 0.5);
+
+  --scrollbar-track: #0E0520;
+  --scrollbar-thumb: #4A208A;
+  --scrollbar-thumb-hover: #A855F7;
+}
+
+[data-theme="electric-slate"] {
+  --railway-darkest: 7 12 22;
+  --railway-dark: 14 23 38;
+  --railway-surface: 21 34 56;
+  --railway-card: 28 46 74;
+  --railway-border: 41 67 107;
+  --railway-hover: 52 85 135;
+  --railway-accent: 2 132 199;
+  --railway-accent-hover: 3 105 161;
+  --railway-gold: 245 158 11;
+  --railway-text-primary: 248 250 252;
+  --railway-text-secondary: 186 230 253;
+  --railway-text-muted: 125 211 252;
+
+  --map-bg: #0E1726;
+  --map-tile-filter: brightness(0.65) invert(1) contrast(2.8) hue-rotate(190deg) saturate(0.4) brightness(0.75);
+  --map-popup-bg: #152238;
+  --map-popup-text: #F8FAFC;
+  --map-popup-border: #29436B;
+
+  --glass-panel-bg: rgba(21, 34, 56, 0.8);
+  --glass-panel-border: rgba(41, 67, 107, 0.6);
+  --glass-card-bg: rgba(28, 46, 74, 0.6);
+  --glass-card-border: rgba(41, 67, 107, 0.5);
+
+  --scrollbar-track: #0E1726;
+  --scrollbar-thumb: #29436B;
+  --scrollbar-thumb-hover: #0284C7;
+}
+
+[data-theme="emerald-rail"] {
+  --railway-darkest: 4 16 12;
+  --railway-dark: 9 31 24;
+  --railway-surface: 16 47 37;
+  --railway-card: 23 63 51;
+  --railway-border: 38 92 75;
+  --railway-hover: 51 117 96;
+  --railway-accent: 16 185 129;
+  --railway-accent-hover: 5 150 105;
+  --railway-gold: 245 158 11;
+  --railway-text-primary: 240 253 244;
+  --railway-text-secondary: 167 243 208;
+  --railway-text-muted: 110 231 183;
+
+  --map-bg: #091F18;
+  --map-tile-filter: brightness(0.65) invert(1) contrast(2.6) hue-rotate(120deg) saturate(0.35) brightness(0.75);
+  --map-popup-bg: #102F25;
+  --map-popup-text: #F0FDF4;
+  --map-popup-border: #265C4B;
+
+  --glass-panel-bg: rgba(16, 47, 37, 0.8);
+  --glass-panel-border: rgba(38, 92, 75, 0.6);
+  --glass-card-bg: rgba(23, 63, 51, 0.6);
+  --glass-card-border: rgba(38, 92, 75, 0.5);
+
+  --scrollbar-track: #091F18;
+  --scrollbar-thumb: #265C4B;
+  --scrollbar-thumb-hover: #10B981;
+}
+
+[data-theme="midnight-amber"] {
+  --railway-darkest: 7 14 24;
+  --railway-dark: 11 25 44;
+  --railway-surface: 17 34 56;
+  --railway-card: 22 43 70;
+  --railway-border: 31 58 94;
+  --railway-hover: 37 71 114;
+  --railway-accent: 255 101 0;
+  --railway-accent-hover: 229 86 4;
+  --railway-gold: 255 178 0;
+  --railway-text-primary: 248 250 252;
+  --railway-text-secondary: 148 163 184;
+  --railway-text-muted: 100 116 139;
+
+  --map-bg: #0B192C;
+  --map-tile-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+  --map-popup-bg: #112238;
+  --map-popup-text: #F8FAFC;
+  --map-popup-border: #1F3A5E;
+
+  --glass-panel-bg: rgba(17, 34, 56, 0.75);
+  --glass-panel-border: rgba(31, 58, 94, 0.6);
+  --glass-card-bg: rgba(22, 43, 70, 0.6);
+  --glass-card-border: rgba(31, 58, 94, 0.5);
+
+  --scrollbar-track: #0B192C;
+  --scrollbar-thumb: #1F3A5E;
+  --scrollbar-thumb-hover: #FF6500;
+}
+
+[data-theme="light-daylight"] {
+  --railway-darkest: 241 245 249;
+  --railway-dark: 255 255 255;
+  --railway-surface: 255 255 255;
+  --railway-card: 248 250 252;
+  --railway-border: 203 213 225;
+  --railway-hover: 226 232 240;
+  --railway-accent: 99 102 241;
+  --railway-accent-hover: 79 70 229;
+  --railway-gold: 217 119 6;
+  --railway-text-primary: 15 23 42;
+  --railway-text-secondary: 71 85 105;
+  --railway-text-muted: 100 116 139;
+
+  --map-bg: #E2E8F0;
+  --map-tile-filter: none;
+  --map-popup-bg: #FFFFFF;
+  --map-popup-text: #0F172A;
+  --map-popup-border: #CBD5E1;
+
+  --glass-panel-bg: rgba(255, 255, 255, 0.9);
+  --glass-panel-border: rgba(203, 213, 225, 0.8);
+  --glass-card-bg: rgba(248, 250, 252, 0.85);
+  --glass-card-border: rgba(203, 213, 225, 0.7);
+
+  --scrollbar-track: #F1F5F9;
+  --scrollbar-thumb: #CBD5E1;
+  --scrollbar-thumb-hover: #6366F1;
+}
+
+/* Accent Color Custom Overrides */
+[data-accent="violet"] {
+  --railway-accent: 139 92 246;
+  --railway-accent-hover: 124 58 237;
+}
+
+[data-accent="indigo"] {
+  --railway-accent: 99 102 241;
+  --railway-accent-hover: 79 70 229;
+}
+
+[data-accent="cyan"] {
+  --railway-accent: 6 182 212;
+  --railway-accent-hover: 8 145 178;
+}
+
+[data-accent="emerald"] {
+  --railway-accent: 16 185 129;
+  --railway-accent-hover: 5 150 105;
+}
+
+[data-accent="amber"] {
+  --railway-accent: 249 115 22;
+  --railway-accent-hover: 234 88 12;
+}
+
+[data-accent="rose"] {
+  --railway-accent: 236 72 153;
+  --railway-accent-hover: 219 39 119;
+}
+
+/* Base Body Styles */
+@layer base {
+  body {
+    @apply bg-railway-darkest text-railway-textPrimary font-sans antialiased selection:bg-railway-accent selection:text-white;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track, #0D0E2B);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, #2E3577);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover, #8B5CF6);
+}
+
+/* Glassmorphism card utilities */
+.glass-panel {
+  background: var(--glass-panel-bg, rgba(19, 22, 58, 0.75));
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-panel-border, rgba(46, 53, 119, 0.6));
+}
+
+.glass-card {
+  background: var(--glass-card-bg, rgba(26, 30, 77, 0.6));
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-card-border, rgba(46, 53, 119, 0.5));
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-card:hover {
+  border-color: rgb(var(--railway-accent) / 0.5);
+  transform: translateY(-2px);
+}
+
+/* Leaflet Map overrides for active theme */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: var(--map-bg, #0D0E2B) !important;
+  font-family: inherit;
+  border-radius: 0.75rem;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--map-popup-bg, #13163A) !important;
+  color: var(--map-popup-text, #F8FAFC) !important;
+  border: 1px solid var(--map-popup-border, #2E3577) !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--map-popup-bg, #13163A) !important;
+}
+
+/* High-contrast dark or natural daylight tile filters */
+.leaflet-tile-pane,
+.leaflet-tile,
+.leaflet-tile-pane img,
+.railway-dark-tiles {
+  filter: var(--map-tile-filter, brightness(0.65) invert(1) contrast(2.6) hue-rotate(220deg) saturate(0.55) brightness(0.85)) !important;
+}
+
+/* ==========================================================================
+   OFFICIAL INDIAN RAILWAYS PRINTABLE E-TICKET STYLES
+   ========================================================================== */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-ticket, #printable-ticket * {
+    visibility: visible;
+  }
+
+  #printable-ticket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 24px !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #111827 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+  }
+
+  #printable-ticket p,
+  #printable-ticket span,
+  #printable-ticket div,
+  #printable-ticket strong,
+  #printable-ticket h4 {
+    color: #111827 !important;
+  }
+
+  #printable-ticket .bg-railway-card {
+    background: #f9fafb !important;
+    border: 1px solid #e5e7eb !important;
+  }
+
+  #printable-ticket img {
+    filter: none !important;
+    display: block !important;
+  }
+}

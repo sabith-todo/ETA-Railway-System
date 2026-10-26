@@ -1,0 +1,276 @@
+{
+  "dataset_summary": {
+    "total_samples": 21100,
+    "train_samples": 16880,
+    "test_samples": 4220,
+    "features_count": 17
+  },
+  "model_comparison": {
+    "static_schedule": {
+      "name": "Static Schedule Baseline",
+      "mae_minutes": 26.12,
+      "rmse_minutes": 42.03,
+      "mape_percent": 31.56,
+      "description": "Assumes train runs strictly according to published timetable."
+    },
+    "current_delay_method": {
+      "name": "Current-Delay Persistence",
+      "mae_minutes": 26.17,
+      "rmse_minutes": 41.69,
+      "mape_percent": 33.06,
+      "description": "Standard commercial train app method: propagates current delay uniformly."
+    },
+    "dynamic_ml_model": {
+      "name": "Dynamic ML ETA Engine (Gradient Boosting)",
+      "mae_minutes": 3.01,
+      "rmse_minutes": 4.21,
+      "mape_percent": 5.59,
+      "accuracy_improvement_percent": 88.5,
+      "description": "Our model: dynamically models congestion, TSRs, weather, recovery slack, and train priority."
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "nominal_section_time_min",
+      "importance": 0.2896
+    },
+    {
+      "feature": "target_speed_kmh",
+      "importance": 0.28
+    },
+    {
+      "feature": "section_distance_km",
+      "importance": 0.2331
+    },
+    {
+      "feature": "scheduled_section_time_min",
+      "importance": 0.1772
+    },
+    {
+      "feature": "remaining_stations",
+      "importance": 0.0112
+    },
+    {
+      "feature": "distance_to_destination_km",
+      "importance": 0.004
+    },
+    {
+      "feature": "weather_score",
+      "importance": 0.0029
+    },
+    {
+      "feature": "congestion_score",
+      "importance": 0.0007
+    },
+    {
+      "feature": "priority_score",
+      "importance": 0.0006
+    },
+    {
+      "feature": "has_tsr",
+      "importance": 0.0005
+    },
+    {
+      "feature": "current_delay_min",
+      "importance": 0.0001
+    },
+    {
+      "feature": "previous_station_delay_min",
+      "importance": 0.0001
+    },
+    {
+      "feature": "time_of_day_sin",
+      "importance": 0.0
+    },
+    {
+      "feature": "time_of_day_cos",
+      "importance": 0.0
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_hour",
+      "importance": 0.0
+    },
+    {
+      "feature": "scheduled_dwell_min",
+      "importance": 0.0
+    }
+  ],
+  "error_distribution": {
+    "0-2 min (High Accuracy)": 2016,
+    "2-5 min (Acceptable)": 1404,
+    "5-10 min (Moderate)": 662,
+    ">10 min (Extreme Disruption)": 138
+  },
+  "comparison_samples": [
+    {
+      "section": "GAYA \u2192 DDU",
+      "train": "14650 Kalka Mail",
+      "actual_time": 273.2,
+      "static_schedule_time": 156.3,
+      "current_delay_heuristic": 163.8,
+      "ml_predicted_time": 282.4,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "heavy_rain"
+    },
+    {
+      "section": "MTJ \u2192 NDLS",
+      "train": "11618 Mangalore Special",
+      "actual_time": 103.5,
+      "static_schedule_time": 107.5,
+      "current_delay_heuristic": 114.8,
+      "ml_predicted_time": 101.3,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "ET \u2192 NGP",
+      "train": "16300 Pandian Link Express",
+      "actual_time": 184.3,
+      "static_schedule_time": 227.2,
+      "current_delay_heuristic": 230.6,
+      "ml_predicted_time": 179.2,
+      "congestion": "low",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "WL \u2192 BZA",
+      "train": "16634 Purushottam Superfast",
+      "actual_time": 226.1,
+      "static_schedule_time": 234.0,
+      "current_delay_heuristic": 241.5,
+      "ml_predicted_time": 231.9,
+      "congestion": "low",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "GDR \u2192 MAS",
+      "train": "16784 Pandian Mail",
+      "actual_time": 189.6,
+      "static_schedule_time": 105.2,
+      "current_delay_heuristic": 105.2,
+      "ml_predicted_time": 203.2,
+      "congestion": "low",
+      "has_tsr": true,
+      "weather": "fog"
+    },
+    {
+      "section": "BVI \u2192 VAPI",
+      "train": "16415 Vaigai Express",
+      "actual_time": 84.5,
+      "static_schedule_time": 106.7,
+      "current_delay_heuristic": 106.8,
+      "ml_predicted_time": 84.0,
+      "congestion": "medium",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "HWH \u2192 BWN",
+      "train": "11187 Ganga Kaveri Express",
+      "actual_time": 81.9,
+      "static_schedule_time": 72.5,
+      "current_delay_heuristic": 72.8,
+      "ml_predicted_time": 82.0,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "KOTA \u2192 SWM",
+      "train": "11924 Paschim Superfast",
+      "actual_time": 151.2,
+      "static_schedule_time": 82.3,
+      "current_delay_heuristic": 82.3,
+      "ml_predicted_time": 153.6,
+      "congestion": "high",
+      "has_tsr": true,
+      "weather": "clear"
+    },
+    {
+      "section": "SA \u2192 SGE",
+      "train": "22934 Paschim Special",
+      "actual_time": 33.2,
+      "static_schedule_time": 35.9,
+      "current_delay_heuristic": 39.3,
+      "ml_predicted_time": 35.9,
+      "congestion": "medium",
+      "has_tsr": false,
+      "weather": "rain"
+    },
+    {
+      "section": "RTM \u2192 KOTA",
+      "train": "14579 Ganga Kaveri Mail",
+      "actual_time": 177.8,
+      "static_schedule_time": 202.8,
+      "current_delay_heuristic": 202.8,
+      "ml_predicted_time": 177.8,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "NLR \u2192 GDR",
+      "train": "18249 Purushottam Link Express",
+      "actual_time": 23.9,
+      "static_schedule_time": 28.9,
+      "current_delay_heuristic": 41.5,
+      "ml_predicted_time": 23.4,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "BPQ \u2192 WL",
+      "train": "16634 Purushottam Superfast",
+      "actual_time": 175.4,
+      "static_schedule_time": 108.2,
+      "current_delay_heuristic": 141.0,
+      "ml_predicted_time": 183.9,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "AGC \u2192 GWL",
+      "train": "16300 Pandian Link Express",
+      "actual_time": 113.6,
+      "static_schedule_time": 90.0,
+      "current_delay_heuristic": 91.5,
+      "ml_predicted_time": 115.5,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "BWN \u2192 ASN",
+      "train": "11187 Ganga Kaveri Express",
+      "actual_time": 81.8,
+      "static_schedule_time": 80.0,
+      "current_delay_heuristic": 81.1,
+      "ml_predicted_time": 86.6,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "clear"
+    },
+    {
+      "section": "KOTA \u2192 SWM",
+      "train": "18393 Pandian Special",
+      "actual_time": 62.4,
+      "static_schedule_time": 82.3,
+      "current_delay_heuristic": 82.3,
+      "ml_predicted_time": 64.0,
+      "congestion": "high",
+      "has_tsr": false,
+      "weather": "rain"
+    }
+  ],
+  "engine_type": "scikit-learn"
+}
